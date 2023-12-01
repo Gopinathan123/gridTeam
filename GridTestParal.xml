@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="2" parallel="classes" name="Suite">
+  <test name="ChromeBrowser">
+  <parameter name="BROWSER" value="chrome"></parameter>
+    <classes>
+      <class name="selGridPrac.PracGridExec1"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="FireFoxBrowser">
+  	<parameter name="BROWSER" value="firefox"></parameter>
+    <classes>
+      <class name="selGridPrac.PracGridExec2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
